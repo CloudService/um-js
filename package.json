@@ -1,0 +1,25 @@
+{
+  "name": "um",
+  "version": "0.1.0",
+  "author": "Jeffrey Sun",
+  "description": "A central place to manage the user accounts.",
+  "main": "index.js",
+  "engines": {
+    "node": "0.8.x"
+  },
+   "dependencies": {
+	"node-uuid":"1.4.x",
+	"mongodb": "1.1.x",
+	"dateformat":"1.0.x",
+	"step":"0.0.x"
+  },
+   "devDependencies": {
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "UserManagement"
+  ]
+}
