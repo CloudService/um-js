@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "um-js",
   "version": "0.1.0",
   "author": "Jeffrey Sun",
@@ -14,12 +15,30 @@
 	"mongostream":"0.1.x"
   },
    "devDependencies": {
+=======
+    "name": "um",
+    "version": "0.1.0",
+    "author": "Jeffrey Sun",
+    "description": "A central place to manage the user accounts.",
+    "main": "index.js",
+    "engines": {
+        "node": "0.8.x"
+>>>>>>> Consume the mocha as the unit test framework.
     },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": "",
-  "keywords": [
-    "UserManagement"
-  ]
+    "dependencies": {
+        "node-uuid": "1.4.x",
+        "async": "0.2.x",
+        "step": "0.0.x"
+    },
+    "devDependencies": {
+        "mocha": "1.12.x",
+        "should": "1.2.x"
+    },
+    "scripts": {
+        "test": ".\\node_modules\\.bin\\mocha --require should --ui bdd --reporter list"
+    },
+    "repository": "",
+    "keywords": [
+        "UserManagement"
+    ]
 }
