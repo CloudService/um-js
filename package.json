@@ -1,34 +1,17 @@
 {
-<<<<<<< HEAD
-  "name": "um-js",
-  "version": "0.1.0",
-  "author": "Jeffrey Sun",
-  "description": "A central place to manage the user accounts.",
-  "main": "index.js",
-  "engines": {
-    "node": "0.8.x"
-  },
-   "dependencies": {
-	"node-uuid":"1.4.x",
-	"async": "0.2.x",
-	"step":"0.0.x",
-	"mongostream":"0.1.x"
-  },
-   "devDependencies": {
-=======
-    "name": "um",
+    "name": "um-js",
     "version": "0.1.0",
     "author": "Jeffrey Sun",
     "description": "A central place to manage the user accounts.",
     "main": "index.js",
     "engines": {
         "node": "0.8.x"
->>>>>>> Consume the mocha as the unit test framework.
     },
     "dependencies": {
         "node-uuid": "1.4.x",
         "async": "0.2.x",
-        "step": "0.0.x"
+        "step": "0.0.x",
+        "mongostream": "0.1.x"
     },
     "devDependencies": {
         "mocha": "1.12.x",
